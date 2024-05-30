@@ -43,6 +43,7 @@ export const ChatProvider = ({children, serverUrl}) => {
 
   const leaveChat = () => {
     setIsConnected(false);
+    setMessages([]);
   };
 
   const sendMessage = () => {
